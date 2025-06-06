@@ -25,7 +25,7 @@ Key: {self.key}
 Tuning: {self.tuning}
 ''')
     
-def new_song(): # asks user for info on song they're adding
+def add_new_song(): # asks user for info on song they're adding
     title = input('Please enter the song title: ').title().strip()
     artist = input('Please enter the artist name: ').title().strip()
     album = input('Please enter the album name: ').title().strip()
